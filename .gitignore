@@ -7,5 +7,9 @@ wheels/
 *.egg-info
 report/
 
+# Keep problem3/results in the repo, but ignore generated artifacts
+problem3/results/*
+!problem3/results/.gitkeep
+
 # Virtual environments
 .venv
